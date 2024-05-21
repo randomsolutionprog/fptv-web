@@ -11,6 +11,7 @@ Route::get('/login', [AuthorizationController::class, 'indexLogin'])->name('logi
 Route::get('/register', [AuthorizationController::class, 'indexRegister'])->name('register');
 Route::post('/authLogin', [AuthorizationController::class, 'authLogin'])->name('authLogin');
 Route::post('/authRegister', [AuthorizationController::class, 'authRegister'])->name('authRegister');
+Route::post('/authenticate', 'authenticate')->name('authenticate');
 
 
 Route::middleware("auth")->group(function(){
