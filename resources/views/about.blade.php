@@ -5,5 +5,6 @@ About Page
 @endsection
 
 @section('content')
-About Page
+<h1>About Page </h1>
+
 @endsection
