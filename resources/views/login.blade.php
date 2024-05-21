@@ -50,7 +50,7 @@ Log In Page
                       <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" name="rememberMe" id="rememberMe">
                         <label class="form-check-label text-secondary" for="rememberMe">
-                          Keep me logged in
+                          Keep me logged inside
                         </label>
                       </div>
                       <a href="#!" class="link-primary text-decoration-none">Forgot password?</a>
